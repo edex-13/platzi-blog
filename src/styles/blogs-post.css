@@ -1,0 +1,17 @@
+.blogs-post-container .post-container {
+   padding: 40px;
+}
+.blogs-post-container .post-container p {
+   margin: 35px 0px;
+}
+.blogs-post-container .post-container img {
+   width: 100%;
+   height: 50%;
+   object-fit: cover;
+   object-position: center center;
+   margin-bottom: 20px;
+}
+.blogs-post-container div {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
