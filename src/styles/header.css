@@ -1,0 +1,33 @@
+.header {
+   width: 100%;
+   display: grid;
+   grid-template-rows: 50px 70px;
+}
+.header__social-media {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   background-color: #47cfac;
+}
+.header__social-media a {
+   margin: 0 40px;
+   width: 30px;
+   text-decoration: none;
+}
+.social-media__icon {
+   width: 100%;
+}
+.nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav section {
+   margin: 0 50px;
+}
+.logo {
+   width: 220px;
+}
+.about_me {
+   color: black;
+}
