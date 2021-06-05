@@ -2,6 +2,7 @@
 @import './header.css';
 @import './main-blogs.css';
 @import './blogs-post.css';
+@import './footer.css';
 * {
    margin: 0;
    padding: 0;
