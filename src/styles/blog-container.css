@@ -1,0 +1,12 @@
+.blogpost-img-container{
+    padding: 0  50px 40px;
+}
+.blogpost-img-container img{
+    width: 50%;
+}
+.blogpost-body-container{
+    padding: 0 50px 40px;
+}
+.blogpost-body-container h3{
+    border-bottom: 1px solid #cdd2da;
+}
