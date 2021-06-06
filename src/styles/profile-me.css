@@ -1,0 +1,12 @@
+.profile-me-container{
+    padding: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 15px;
+    display: flex;
+
+}
+.profile-me-container img{
+    width: 260px;
+    margin-right: 30px;
+    border-radius:50%;
+}
