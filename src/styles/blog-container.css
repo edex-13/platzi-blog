@@ -10,3 +10,6 @@
 .blogpost-body-container h3{
     border-bottom: 1px solid #cdd2da;
 }
+.blogpost-body-container article h1 {
+    font-size: 35px;
+}

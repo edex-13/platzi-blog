@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
 @import './header.css';
 @import './blog-container.css';
+@import './contact.css';
 @import './footer.css';
 * {
    margin: 0;

@@ -1,0 +1,23 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 120px;
+    padding: 100px 120px;
+    background-color: #e6e9ed;
+}
+.contact-container  > div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.contact-container img{
+    width: 120px;
+}
+.contact-body {
+    padding: 10px;
+}
+.contact-body > a{
+    display: inline-block;
+    color: black;
+    margin-bottom: 10px;
+}
