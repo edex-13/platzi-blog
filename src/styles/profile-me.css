@@ -1,13 +1,28 @@
-.profile-me-container{
-    padding: 70px 120px;
-    background-color: #e6e9ed;
-    margin-bottom: 15px;
-    display: flex;
-    gap:60px;
-
+.profile-me-container {
+   padding: 70px 120px;
+   background-color: #e6e9ed;
+   margin-bottom: 15px;
+   display: flex;
+   gap: 60px;
 }
-.profile-me-container img{
-    width: 260px;
-    margin-right: 30px;
-    border-radius:50%;
+.profile-me-container img {
+   width: 260px;
+   margin-right: 30px;
+   border-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+   .profile-me-container {
+      padding: 70px 40px;
+      gap: 40px;
+   }
+   .profile-me-container img {
+      width: 220px;
+      margin-right: 10px;
+   }
+}
+@media screen and (max-width: 600px) {
+   .profile-me-container {
+      flex-direction: column;
+      align-items: center;
+   }
 }
