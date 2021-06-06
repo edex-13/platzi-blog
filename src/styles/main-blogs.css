@@ -22,14 +22,7 @@
 .blogs-news-info-container p {
    margin: 35px 0px;
 }
-.blogs-post-container {
-   padding: 0 50px 40px;
-}
-.blogs-post-container h3 {
-   border-bottom: 1px solid #cdd2da;
-   padding: 25px 0px 20px 0px;
-   text-align: center;
-}
+
 
 .blogs-button {
    border: 2px solid #47cfac;
@@ -53,9 +46,7 @@
 }
 
 @media screen and (max-width: 620px) {
-   .blogs-news-container {
-      padding: 30px 60px;
-   }
+
    .blogs-main-new {
       display: grid;
       grid-template-columns: 1fr;

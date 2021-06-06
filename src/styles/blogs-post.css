@@ -13,5 +13,21 @@
 }
 .blogs-post-container div {
    display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(320px , 1fr));
+   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.blogs-post-container {
+   padding: 50px 40px;
+}
+.blogs-post-container h3 {
+   border-bottom: 1px solid #cdd2da;
+   padding: 25px 0px 20px 0px;
+   text-align: center;
+}
+@media screen and (max-width: 920px) {
+   .blogs-post-container {
+      padding: 50px 0px;
+   }
+   .blogs-post-container .post-container {
+   padding: 40px 20px;
+}
 }
