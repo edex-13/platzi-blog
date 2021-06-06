@@ -1,23 +1,31 @@
-.contact-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 120px;
-    padding: 100px 120px;
-    background-color: #e6e9ed;
+.contact-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   justify-content: center;
+   align-items: center;
+   gap: 120px;
+   padding: 100px 100px;
+   background-color: #e6e9ed;
 }
-.contact-container  > div{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
+.contact-container > div {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   align-items: center;
 }
-.contact-container img{
-    width: 120px;
+.contact-container img {
+   width: 120px;
 }
 .contact-body {
-    padding: 10px;
+   padding: 10px;
 }
-.contact-body > a{
-    display: inline-block;
-    color: black;
-    margin-bottom: 10px;
+.contact-body > a {
+   display: inline-block;
+   color: black;
+   margin-bottom: 10px;
+}
+@media screen and (max-width: 520px) {
+   .contact-container {
+      gap: 100px;
+      padding: 40px 40px;
+   }
 }
