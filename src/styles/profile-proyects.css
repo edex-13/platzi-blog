@@ -1,0 +1,18 @@
+.profile-main-proyects{
+    padding: 70px 120px;
+}
+.profile-main-proyects h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+.proyects-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 65px;
+    padding: 30px;
+}
+.proyects-main-container > article > h4{
+    margin-bottom: 20px;
+}

@@ -1,8 +1,9 @@
 .profile-me-container{
-    padding: 70px 40px;
+    padding: 70px 120px;
     background-color: #e6e9ed;
     margin-bottom: 15px;
     display: flex;
+    gap:60px;
 
 }
 .profile-me-container img{
