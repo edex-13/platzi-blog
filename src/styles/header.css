@@ -31,3 +31,19 @@
 .about_me {
    color: black;
 }
+@media screen and (max-width: 520px) {
+   .header__social-media {
+      justify-content: center;
+   }
+   .header__social-media a {
+      margin: 0 25px;
+      width: 30px;
+      text-decoration: none;
+   }
+   .nav div {
+      margin: 0 10px;
+   }
+   .logo {
+      width: 200px;
+   }
+}
